@@ -16,3 +16,10 @@ As you can see we have correctly analyzed 92 percent of all equations. Keep in m
 
 Some Examples to Simple Normal Complex are;
 ![image](https://github.com/cepnisabann/LatexPix/assets/34573420/d31fe671-8d1f-468d-b18c-315d71d33370)
+
+Api's that i used for my android applications are
+OCR API: https://github.com/lukas-blecher/LaTeX-OCR
+
+For LaTex to MathML conversation: https://github.com/fred-wang/TeXZilla
+
+I do not own any of these. Thank you.
