@@ -1,0 +1,55 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.whitejuke.latexpix'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.whitejuke.latexpix"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    aaptOptions {
+        noCompress 'ttf', 'otf', 'js'  // Exclude compression for MathJax files
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'androidx.camera:camera-camera2:1.1.0'
+    implementation 'androidx.camera:camera-lifecycle:1.1.0'
+    implementation 'androidx.camera:camera-view:1.0.0-alpha23'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.1'
+    implementation 'com.google.code.gson:gson:2.8.9'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+
+    implementation 'org.jsoup:jsoup:1.14.2'
+
+    implementation 'org.apache.commons:commons-text:1.10.0'
+    //for views
+    implementation 'com.github.gregcockroft:AndroidMath:ALPHA'
+
+}
