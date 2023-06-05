@@ -17,6 +17,12 @@ As you can see we have correctly analyzed 92 percent of all equations. Keep in m
 Some Examples to Simple Normal Complex are;
 ![image](https://github.com/cepnisabann/LatexPix/assets/34573420/d31fe671-8d1f-468d-b18c-315d71d33370)
 
+
+![Main Screen without Image](https://github.com/cepnisabann/LatexPix/assets/34573420/3af6fe7e-e043-4979-88fd-04c757d3eeb5)
+![Only Analyzed Screen](https://github.com/cepnisabann/LatexPix/assets/34573420/c45ec470-0f83-4f6c-8b7a-deecffd4f16d)
+![Analyzed And Solved Screen](https://github.com/cepnisabann/LatexPix/assets/34573420/935d868f-c98e-42c5-9365-48b08cbc2911)
+
+
 Api's that i used for my android applications are
 OCR API: https://github.com/lukas-blecher/LaTeX-OCR
 
