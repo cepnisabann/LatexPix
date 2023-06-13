@@ -28,4 +28,16 @@ OCR API: https://github.com/lukas-blecher/LaTeX-OCR
 
 For LaTex to MathML conversation: https://github.com/fred-wang/TeXZilla
 
-I do not own any of these. Thank you.
+
+Simple application stages
+
+
+![SimpleWorkFlow](https://github.com/cepnisabann/LatexPix/assets/34573420/5874691c-5d9e-423a-9744-04d9c052dce9)
+
+
+How API’s and application interact with each other
+
+
+![WorkFlowdiagram](https://github.com/cepnisabann/LatexPix/assets/34573420/393f1bed-33e1-4ef2-95b0-7cee365fe693)
+
+I do not own any of the api modules. Thank you.
